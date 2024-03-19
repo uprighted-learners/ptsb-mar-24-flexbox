@@ -1,0 +1,46 @@
+/* Overwrite 'margin' provided by browser */
+body {
+    margin: 0;
+}
+
+/* Example One */
+.container {
+    background-color: coral;
+    height: 200px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#child-1 {
+    background-color: aqua;
+    flex: 1;
+}
+
+#child-2 {
+    background-color: bisque;
+    flex: 2;
+}
+
+#child-3 {
+    background-color: blue;
+    flex: 1;
+}
+
+#child-4 {
+    background-color: green;
+    flex: 1;
+}
+
+/* Example Two */
+.two-columns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
